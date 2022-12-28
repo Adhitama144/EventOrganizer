@@ -16,7 +16,7 @@ public class GuestRecord {
         boolean ulang = true;
         char input_pilihan_menu;
 
-        EventOrganizer[] daftar_tamu = new EventOrganizer[2];
+        EventOrganizer[] daftar_tamu = new EventOrganizer[10];
         while (ulang) {
             System.out.println("\n====================================");
             System.out.println("\n========== Program Undang ==========");
