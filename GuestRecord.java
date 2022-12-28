@@ -12,7 +12,7 @@ public class GuestRecord {
     static BufferedReader input_data_tamu = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) {
-        int sementara;
+        
         boolean ulang = true;
         char input_pilihan_menu;
 
