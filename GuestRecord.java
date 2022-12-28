@@ -22,9 +22,10 @@ public class GuestRecord {
             System.out.println("\n========== Program Undang ==========");
             System.out.println("\n====================================");
             System.out.println("pilih menu");
-            System.out.println("a.input data");
-            System.out.println("b.cetak data ");
-            System.out.println("c.exit");
+            System.out.print("a.input data");
+            System.out.print("b.cetak data ");
+            System.out.print("c.exit");
+            System.out.print("pilih :");
             input_pilihan_menu = input_pilihan.next().charAt(0);
 
             switch (input_pilihan_menu) {
